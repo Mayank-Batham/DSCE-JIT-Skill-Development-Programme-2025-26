@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+
+let result;
+
+function executed(val){
+    display(val);
+}
+function display(result){
+document.getElementById("demo").innerHTML = result;
+}
+
+setTimeout(function(){executed(234);},1000);
+
+</script>
+
+</body>
+</html>
