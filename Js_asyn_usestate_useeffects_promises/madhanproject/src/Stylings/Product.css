@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+    gap:10vw;
+    justify-content: center;
+    padding:2vh;
+    border-style: solid;
+    border-color:blueviolet;
+    background-color:rgba(255, 166, 0, 0.596);
+    margin-bottom: 10px;
+}
+.btn{
+    
+}
