@@ -1,0 +1,12 @@
+* text=auto
+
+# Make GitHub Linguist classify React files correctly.
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# Keep tiny tool/config files from dominating language stats.
+vite.config.js linguist-detectable=false
+eslint.config.js linguist-detectable=false
+
+# Keep lockfile out of language breakdown.
+package-lock.json linguist-generated=true
